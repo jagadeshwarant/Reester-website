@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+
+
+    .section-one{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .section-one__list,
+    .section-one__list li {
+        display: inline-block;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        color: blanchedalmond;
+    }
+
+    .section-one__title {
+        padding-top: 10px;
+    }
+
+    .section-two {
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+
+    .section-two,
+    .section-two__imgone,
+    .section-two__imgtwo,
+    .section-two__imgthree,
+    .section-two__imgfour {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .section-two__imgone,
+    .section-two__imgtwo,
+    .section-two__imgthree,
+    .section-two__imgfour {
+        width: 220px;
+        height: 440px;
+        border: solid black 2px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+
+    .section-two__order {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-top: 10px;
+        width: 150px;
+        margin-left: 25px;
+
+    }
+
+    .section-three {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .section-three__table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-three__submit {
+        cursor: pointer;
+        background-color: yellow;
+        color: black;
+        display: inline-block;
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center;
+    }
+
+}
